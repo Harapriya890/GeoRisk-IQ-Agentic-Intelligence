@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+*.png
+*.html
+.streamlit/
+_tmp_upload.txt
+
+# Raw/downloaded data files - regenerate or add locally as needed
+FDICFailure.txt
+FDICFinancials.txt
+FDICFinancialsFull.txt
+GeospatialFull.txt
+Geospatiallocation.txt
+HRSAHealthShortage.json

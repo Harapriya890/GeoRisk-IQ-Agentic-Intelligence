@@ -1,0 +1,14 @@
+# Optional dependencies for the GeoRisk-IQ agentic-AI extension.
+# The base Streamlit dashboard does not require these packages.
+#
+# CrewAI is intentionally not listed here for Python 3.14 environments.
+# The currently resolved CrewAI dependency chain can pull older LangChain
+# packages that require numpy<2 and may fail to build on Python 3.14/Windows.
+# GeoRisk-IQ still exposes a deterministic CrewAI blueprint without requiring
+# the package at runtime.
+
+langgraph
+langchain
+langchain-community
+snowflake-connector-python
+snowflake-sqlalchemy
